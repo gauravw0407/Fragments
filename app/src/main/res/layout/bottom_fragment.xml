@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/meme">
+
+    <TextView
+        android:text="Top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:id="@+id/toptxt"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+
+        android:text="Bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/toptxt"
+        android:id="@+id/bottomtxt"
+        android:width="300dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"/>
+</RelativeLayout>
